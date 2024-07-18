@@ -1,0 +1,5 @@
+2023-04-01 12:00:01 INFO Iniciando o servidor.
+2023-04-01 12:05:23 DEBUG Processo de autenticação iniciado para o usuário Caique.
+2023-04-01 12:05:25 INFO Usuário Caique autenticado com sucesso.
+2023-04-01 12:30:47 WARN Tentativa de acesso não autorizado detectada.
+2023-04-01 12:45:00 ERROR Falha ao enviar e-mail para o usuário Caique.

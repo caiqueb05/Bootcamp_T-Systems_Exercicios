@@ -1,0 +1,5 @@
+2023-04-02 09:15:00 DEBUG Aplicação iniciada.
+2023-04-02 09:20:00 INFO Solicitação de login recebida de Caique.
+2023-04-02 09:20:05 DEBUG Sessão iniciada para Caique.
+2023-04-02 10:00:00 DEBUG Caique solicitou recuperação de senha.
+2023-04-02 10:05:00 INFO E-mail de recuperação enviado para Caique.

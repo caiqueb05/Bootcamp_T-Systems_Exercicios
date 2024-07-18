@@ -1,0 +1,5 @@
+2023-04-04 08:00:00 INFO Usuário Caique acessou o sistema.
+2023-04-04 08:30:00 DEBUG Caique realizou uma busca no banco de dados.
+2023-04-04 09:00:00 INFO Caique atualizou seu perfil.
+2023-04-04 10:00:00 WARN Caique tentou acessar uma área restrita sem permissão.
+2023-04-04 11:00:00 ERROR Tentativa de login falha para o usuário Caique.
