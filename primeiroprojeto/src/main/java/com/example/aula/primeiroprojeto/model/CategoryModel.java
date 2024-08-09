@@ -7,24 +7,24 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.io.Serializable;
-import java.math.BigDecimal;
+import java.util.List;
 import java.util.UUID;
 
 @Entity
-@Table(name = "product")
+@Table(name = "category")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProductModel implements Serializable {
-    private static final long serialVersionUID = 1;
+public class CategoryModel implements Serializable {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
-    private String name;
-    private BigDecimal value;
 
-    @ManyToOne
-    private CategoryModel category;
+    private String name;
+
+    @OneToMany(mappedBy = "category")
+    private List<ProductModel> products;
 
 }
